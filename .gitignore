@@ -1,0 +1,57 @@
+# Node / package artifacts
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build / output
+dist/
+dist-ssr/
+build/
+out/
+
+# Vite / bundler caches
+.node_modules/.cache/
+.vite/
+.cache/
+.parcel-cache/
+
+# Logs and local files
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Testing / coverage
+coverage/
+.nyc_output/
+
+# TypeScript / ESLint caches
+*.tsbuildinfo
+.eslintcache
+
+# Editor files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Misc
+*.local
+
+# Optional: ignore any backup directories you created
+# (uncomment if you keep backups like 'diabetes-backup-YYYYMMDD-*')
+# diabetes-backup-*
